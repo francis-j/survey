@@ -52,3 +52,13 @@ p, li {
     text-align: center;
     z-index: 10;
 }
+
+.site-content {
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 80px 0 50px 0;
+}
+
+.btn-generic {
+    background: $tertiary-bg-color;
+}
