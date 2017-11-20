@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~styles.vars.scss";
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600');
+
+html, body {
+    font-family: 'Raleway', sans-serif;
+    color: $primary-font-color;
+    background: $primary-bg-color;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 5px;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 32pt;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 24pt;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 20pt;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 16pt;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 14pt;
+    font-weight: 300;
+}
+
+p, li {
+    font-size: 10pt;
+    font-weight: 300;
+    padding: 5px 0;
+}
+
+.header, .header-content, .footer {
+    padding: 10px 0;
+    text-align: center;
+    z-index: 10;
+}

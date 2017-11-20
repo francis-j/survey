@@ -1,0 +1,18 @@
+@import "~styles.vars.scss";
+
+.footer {
+    background: $tertiary-bg-color;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer a, a:active, a:focus {
+    color: $primary-font-color;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: $secondary-font-color;
+    text-decoration: none;
+}
