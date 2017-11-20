@@ -37,11 +37,26 @@ router.all('*', function (req, res, next) {
     next();
 });
 
+router.get('/survey', (req, res) => {
+    connection((db) => {
+        db.collection('survey')
+            .find()
+            .toArray()
+            .then((surveys) => {
+                response.data = surveys;
+                res.json(response);
+            })
+            .catch((err) => {
+                sendError(err, res);
+            });
+    });
+});
+
 // Get survey by id
 router.get('/survey/:id', (req, res) => {
     connection((db) => {
         db.collection('survey')
-            .find()
+            .findOne({ id: parseInt(req.params.id) })
             .then((survey) => {
                 response.data = survey;
                 res.json(response);
