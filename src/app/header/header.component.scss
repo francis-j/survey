@@ -18,3 +18,8 @@
     align-items: center;
     justify-content: center;
 }
+
+h1 a, a:hover {
+    color: $primary-font-color;
+    text-decoration: none;
+}
