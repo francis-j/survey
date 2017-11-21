@@ -1,0 +1,9 @@
+<div *ngIf="questionType == 1" class="question-response">
+    <input type="radio" name="{{questionId}}" title="{{response.label}}" />{{response.label}}
+</div>
+<div *ngIf="questionType == 2" class="question-response">
+    <input type="checkbox" name="{{questionId}}" title="{{response.label}}" />{{response.label}}
+</div>
+<div *ngIf="questionType == 3" class="question-response">
+    <input type="text" />
+</div>

@@ -1,0 +1,6 @@
+<div class="question">
+    <h5>{{question.number}}. {{question.text}}</h5>
+    <div class="question-type-{{question.type}}">
+        <question-response *ngFor="let response of question.responses" [questionId]="question.id" [response]="response" [questionType]="question.type"></question-response>
+    </div>
+</div>

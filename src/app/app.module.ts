@@ -10,6 +10,8 @@ import { AppService } from './app.service';
 import { HttpModule } from '@angular/http';
 import { SurveyComponent } from './survey/survey.component';
 import { PageComponent } from './survey/page/page.component';
+import { QuestionComponent } from './survey/page/question/question.component';
+import { QuestionResponseComponent } from './survey/page/question/question-response/question-response.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { PageComponent } from './survey/page/page.component';
     FooterComponent,
     HomeComponent,
     SurveyComponent,
-    PageComponent
+    PageComponent,
+    QuestionComponent,
+    QuestionResponseComponent
   ],
   imports: [
     BrowserModule,
