@@ -13,78 +13,69 @@
                         "id": 1,
                         "number": "1",
                         "text": "This is the first question",
-                        "scale": {
-                            "id": 1,
-                            "responses": [
-                                {
-                                    "id": 1,
-                                    "response": 1,
-                                    "label": "This is response 1"
-                                },
-                                {
-                                    "id": 2,
-                                    "response": 2,
-                                    "label": "This is response 2"
-                                },
-                                {
-                                    "id": 3,
-                                    "response": 3,
-                                    "label": "This is response 3"
-                                }
-                            ]
-                        },
+                        "responses": [
+                            {
+                                "id": 1,
+                                "response": 1,
+                                "label": "This is response 1"
+                            },
+                            {
+                                "id": 2,
+                                "response": 2,
+                                "label": "This is response 2"
+                            },
+                            {
+                                "id": 3,
+                                "response": 3,
+                                "label": "This is response 3"
+                            }
+                        ],
                         "type": 1
                     },
                     {
                         "id": 2,
                         "number": "2",
                         "text": "This is the second question",
-                        "scale": {
-                            "id": 1,
-                            "responses": [
-                                {
-                                    "id": 1,
-                                    "response": 1,
-                                    "label": "This is response 1"
-                                },
-                                {
-                                    "id": 2,
-                                    "response": 2,
-                                    "label": "This is response 2"
-                                },
-                                {
-                                    "id": 3,
-                                    "response": 3,
-                                    "label": "This is response 3"
-                                }
-                            ]
-                        },
+                        "responses": [
+                            {
+                                "id": 1,
+                                "response": 1,
+                                "label": "This is response 1"
+                            },
+                            {
+                                "id": 2,
+                                "response": 2,
+                                "label": "This is response 2"
+                            },
+                            {
+                                "id": 3,
+                                "response": 3,
+                                "label": "This is response 3"
+                            }
+                        ],
                         "type": 1
                     },
                     {
                         "id": 3,
                         "number": "3",
                         "text": "This is the third question",
-                        "scale": {
-                            "id": 1,
-                            "responses": [
-                                {
-                                    "id": 1,
-                                    "response": 1,
-                                    "label": "This is response 1"
-                                },
-                                {
-                                    "id": 2,
-                                    "response": 2,
-                                    "label": "This is response 2"
-                                },
-                                {
-                                    "id": 3,
-                                    "response": 3,
-                                    "label": "This is response 3"
-                                }
-                            ]
-                        },
+                        "responses": [
+                            {
+                                "id": 1,
+                                "response": 1,
+                                "label": "This is response 1"
+                            },
+                            {
+                                "id": 2,
+                                "response": 2,
+                                "label": "This is response 2"
+                            },
+                            {
+                                "id": 3,
+                                "response": 3,
+                                "label": "This is response 3"
+                            }
+                        ],
                         "type": 1
                     }
                 ]
@@ -98,84 +89,75 @@
                         "id": 4,
                         "number": "4",
                         "text": "This is the fourth question",
-                        "scale": {
-                            "id": 1,
-                            "responses": [
-                                {
-                                    "id": 1,
-                                    "response": 1,
-                                    "label": "This is response 1"
-                                },
-                                {
-                                    "id": 2,
-                                    "response": 2,
-                                    "label": "This is response 2"
-                                },
-                                {
-                                    "id": 3,
-                                    "response": 3,
-                                    "label": "This is response 3"
-                                }
-                            ]
-                        },
+                        "responses": [
+                            {
+                                "id": 1,
+                                "response": 1,
+                                "label": "This is response 1"
+                            },
+                            {
+                                "id": 2,
+                                "response": 2,
+                                "label": "This is response 2"
+                            },
+                            {
+                                "id": 3,
+                                "response": 3,
+                                "label": "This is response 3"
+                            }
+                        ],
                         "type": 1
                     },
                     {
                         "id": 5,
                         "number": "5",
                         "text": "This is the fifth question",
-                        "scale": {
-                            "id": 1,
-                            "responses": [
-                                {
-                                    "id": 1,
-                                    "response": 1,
-                                    "label": "This is response 1"
-                                },
-                                {
-                                    "id": 2,
-                                    "response": 2,
-                                    "label": "This is response 2"
-                                },
-                                {
-                                    "id": 3,
-                                    "response": 3,
-                                    "label": "This is response 3"
-                                }
-                            ]
-                        },
+                        "responses": [
+                            {
+                                "id": 1,
+                                "response": 1,
+                                "label": "This is response 1"
+                            },
+                            {
+                                "id": 2,
+                                "response": 2,
+                                "label": "This is response 2"
+                            },
+                            {
+                                "id": 3,
+                                "response": 3,
+                                "label": "This is response 3"
+                            }
+                        ],
                         "type": 1
                     },
                     {
                         "id": 6,
                         "number": "6",
                         "text": "This is the sixth question",
-                        "scale": {
-                            "id": 1,
-                            "responses": [
-                                {
-                                    "id": 1,
-                                    "response": 1,
-                                    "label": "This is response 1"
-                                },
-                                {
-                                    "id": 2,
-                                    "response": 2,
-                                    "label": "This is response 2"
-                                },
-                                {
-                                    "id": 3,
-                                    "response": 3,
-                                    "label": "This is response 3"
-                                }
-                            ]
-                        },
+                        "responses": [
+                            {
+                                "id": 1,
+                                "response": 1,
+                                "label": "This is response 1"
+                            },
+                            {
+                                "id": 2,
+                                "response": 2,
+                                "label": "This is response 2"
+                            },
+                            {
+                                "id": 3,
+                                "response": 3,
+                                "label": "This is response 3"
+                            }
+                        ],
                         "type": 1
                     }
                 ]
             }
         ]
-    },    
+    },
     {
         "id": 2,
         "title": "Survey 2",
@@ -190,78 +172,69 @@
                         "id": 1,
                         "number": "1",
                         "text": "This is the first question",
-                        "scale": {
-                            "id": 1,
-                            "responses": [
-                                {
-                                    "id": 1,
-                                    "response": 1,
-                                    "label": "This is response 1"
-                                },
-                                {
-                                    "id": 2,
-                                    "response": 2,
-                                    "label": "This is response 2"
-                                },
-                                {
-                                    "id": 3,
-                                    "response": 3,
-                                    "label": "This is response 3"
-                                }
-                            ]
-                        },
+                        "responses": [
+                            {
+                                "id": 1,
+                                "response": 1,
+                                "label": "This is response 1"
+                            },
+                            {
+                                "id": 2,
+                                "response": 2,
+                                "label": "This is response 2"
+                            },
+                            {
+                                "id": 3,
+                                "response": 3,
+                                "label": "This is response 3"
+                            }
+                        ],
                         "type": 1
                     },
                     {
                         "id": 2,
                         "number": "2",
                         "text": "This is the second question",
-                        "scale": {
-                            "id": 1,
-                            "responses": [
-                                {
-                                    "id": 1,
-                                    "response": 1,
-                                    "label": "This is response 1"
-                                },
-                                {
-                                    "id": 2,
-                                    "response": 2,
-                                    "label": "This is response 2"
-                                },
-                                {
-                                    "id": 3,
-                                    "response": 3,
-                                    "label": "This is response 3"
-                                }
-                            ]
-                        },
+                        "responses": [
+                            {
+                                "id": 1,
+                                "response": 1,
+                                "label": "This is response 1"
+                            },
+                            {
+                                "id": 2,
+                                "response": 2,
+                                "label": "This is response 2"
+                            },
+                            {
+                                "id": 3,
+                                "response": 3,
+                                "label": "This is response 3"
+                            }
+                        ],
                         "type": 1
                     },
                     {
                         "id": 3,
                         "number": "3",
                         "text": "This is the third question",
-                        "scale": {
-                            "id": 1,
-                            "responses": [
-                                {
-                                    "id": 1,
-                                    "response": 1,
-                                    "label": "This is response 1"
-                                },
-                                {
-                                    "id": 2,
-                                    "response": 2,
-                                    "label": "This is response 2"
-                                },
-                                {
-                                    "id": 3,
-                                    "response": 3,
-                                    "label": "This is response 3"
-                                }
-                            ]
-                        },
+                        "responses": [
+                            {
+                                "id": 1,
+                                "response": 1,
+                                "label": "This is response 1"
+                            },
+                            {
+                                "id": 2,
+                                "response": 2,
+                                "label": "This is response 2"
+                            },
+                            {
+                                "id": 3,
+                                "response": 3,
+                                "label": "This is response 3"
+                            }
+                        ],
                         "type": 1
                     }
                 ]
@@ -275,78 +248,69 @@
                         "id": 4,
                         "number": "4",
                         "text": "This is the fourth question",
-                        "scale": {
-                            "id": 1,
-                            "responses": [
-                                {
-                                    "id": 1,
-                                    "response": 1,
-                                    "label": "This is response 1"
-                                },
-                                {
-                                    "id": 2,
-                                    "response": 2,
-                                    "label": "This is response 2"
-                                },
-                                {
-                                    "id": 3,
-                                    "response": 3,
-                                    "label": "This is response 3"
-                                }
-                            ]
-                        },
+                        "responses": [
+                            {
+                                "id": 1,
+                                "response": 1,
+                                "label": "This is response 1"
+                            },
+                            {
+                                "id": 2,
+                                "response": 2,
+                                "label": "This is response 2"
+                            },
+                            {
+                                "id": 3,
+                                "response": 3,
+                                "label": "This is response 3"
+                            }
+                        ],
                         "type": 1
                     },
                     {
                         "id": 5,
                         "number": "5",
                         "text": "This is the fifth question",
-                        "scale": {
-                            "id": 1,
-                            "responses": [
-                                {
-                                    "id": 1,
-                                    "response": 1,
-                                    "label": "This is response 1"
-                                },
-                                {
-                                    "id": 2,
-                                    "response": 2,
-                                    "label": "This is response 2"
-                                },
-                                {
-                                    "id": 3,
-                                    "response": 3,
-                                    "label": "This is response 3"
-                                }
-                            ]
-                        },
+                        "responses": [
+                            {
+                                "id": 1,
+                                "response": 1,
+                                "label": "This is response 1"
+                            },
+                            {
+                                "id": 2,
+                                "response": 2,
+                                "label": "This is response 2"
+                            },
+                            {
+                                "id": 3,
+                                "response": 3,
+                                "label": "This is response 3"
+                            }
+                        ],
                         "type": 1
                     },
                     {
                         "id": 6,
                         "number": "6",
                         "text": "This is the sixth question",
-                        "scale": {
-                            "id": 1,
-                            "responses": [
-                                {
-                                    "id": 1,
-                                    "response": 1,
-                                    "label": "This is response 1"
-                                },
-                                {
-                                    "id": 2,
-                                    "response": 2,
-                                    "label": "This is response 2"
-                                },
-                                {
-                                    "id": 3,
-                                    "response": 3,
-                                    "label": "This is response 3"
-                                }
-                            ]
-                        },
+                        "responses": [
+                            {
+                                "id": 1,
+                                "response": 1,
+                                "label": "This is response 1"
+                            },
+                            {
+                                "id": 2,
+                                "response": 2,
+                                "label": "This is response 2"
+                            },
+                            {
+                                "id": 3,
+                                "response": 3,
+                                "label": "This is response 3"
+                            }
+                        ],
                         "type": 1
                     }
                 ]

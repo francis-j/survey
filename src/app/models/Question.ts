@@ -1,9 +1,9 @@
-import { QuestionScale } from "./QuestionScale";
+import { QuestionResponse } from "./QuestionResponse";
 
 export class Question {
     id: number;
     number: number;
     text: string;
-    scale: QuestionScale;
+    responses: Array<QuestionResponse>;
     type: number;
 }
