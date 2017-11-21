@@ -49,16 +49,24 @@ export class SurveyComponent implements OnInit {
     }
 
     next() {
-        this.currentPageIndex++;
-        this.currentPage = this.survey.pages[this.currentPageIndex];
+        if (this.currentPageIndex < this.pageCount - 1) {
+            //todo: save responses
+    
+            this.currentPageIndex++;
+            this.currentPage = this.survey.pages[this.currentPageIndex];
+        }
     }
 
     back() {
-        this.currentPageIndex--;
-        this.currentPage = this.survey.pages[this.currentPageIndex];
+        if (this.currentPageIndex > 0) {
+            //todo: save responses
+
+            this.currentPageIndex--;
+            this.currentPage = this.survey.pages[this.currentPageIndex];
+        }
     }
 
     submit() {
-        //show modal results
+        //todo: show modal results
     }
 }
