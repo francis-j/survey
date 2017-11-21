@@ -1,9 +1,11 @@
 <div *ngIf="questionType == 1" class="question-response">
-    <input type="radio" name="{{questionId}}" title="{{response.label}}" />{{response.label}}
+    <input type="radio" id="{{questionId}}_{{response.id}}" name="{{questionId}}" title="{{response.label}}" />
+    <label for="{{questionId}}_{{response.id}}">{{response.label}}</label>
 </div>
 <div *ngIf="questionType == 2" class="question-response">
-    <input type="checkbox" name="{{questionId}}" title="{{response.label}}" />{{response.label}}
+    <input type="checkbox" id="{{questionId}}_{{response.id}}" name="{{questionId}}" title="{{response.label}}" />
+    <label for="{{questionId}}_{{response.id}}">{{response.label}}</label>
 </div>
 <div *ngIf="questionType == 3" class="question-response">
-    <input type="text" />
+    <textarea id="{{questionId}}_{{response.id}}" rows="4"></textarea>
 </div>

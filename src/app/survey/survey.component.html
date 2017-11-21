@@ -1,10 +1,16 @@
 <div class="survey">
-    <h3>{{survey.title}}</h3>
-    <h5>{{survey.description}}</h5>
+    <div class="survey-header">
+        <h3>{{survey.title}}</h3>
+        <h5>{{survey.description}}</h5>
+    </div>
     <p *ngIf="pageCount == 0">There are no pages in this survey.</p>
-    <button class="btn btn-generic" *ngIf="pageCount > 0 && currentPage == null" (click)="start()">Start Survey</button>
     <page *ngIf="currentPage != null" [page]="currentPage"></page>
-    <button class="btn btn-generic" *ngIf="pageCount > 0 && currentPage != null" [ngClass]="{disabled: currentPageIndex == 0}" (click)="back()">Back</button>
-    <button class="btn btn-generic" *ngIf="pageCount > 0 && currentPage != null" [ngClass]="{disabled: currentPageIndex >= pageCount - 1}" (click)="next()">Next</button>
-    <button class="btn btn-generic" *ngIf="pageCount > 0 && currentPage != null && currentPageIndex == pageCount - 1" (click)="submit()">Submit</button>
+    <div class="survey-controls">
+        <button class="btn btn-generic" *ngIf="pageCount > 0 && currentPage == null" (click)="start()">Start Survey</button>
+        <button class="btn btn-generic" *ngIf="pageCount > 0 && currentPage != null" [ngClass]="{disabled: currentPageIndex == 0}"
+            (click)="back()">Back</button>
+        <button class="btn btn-generic" *ngIf="pageCount > 0 && currentPage != null" [ngClass]="{disabled: currentPageIndex >= pageCount - 1}"
+            (click)="next()">Next</button>
+        <button class="btn btn-generic" *ngIf="pageCount > 0 && currentPage != null && currentPageIndex == pageCount - 1" (click)="submit()">Submit</button>
+    </div>
 </div>

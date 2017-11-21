@@ -1,0 +1,26 @@
+@import "~styles.vars.scss";
+
+.home {
+    background: $normal-bg-color;
+    border-radius: $border-radius;
+    padding: 10px;
+    text-align: center;
+}
+
+.home .list-group {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.home .list-group-item {
+    background: $dark-bg-color;
+    border-radius: $border-radius;
+    border: 1px solid $darker-bg-color;
+    color: $primary-font-color;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.home .list-group-item:focus {
+    outline: 0;
+}

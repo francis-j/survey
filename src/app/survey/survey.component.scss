@@ -1,0 +1,17 @@
+@import "~styles.vars.scss";
+
+.survey {
+    background: $normal-bg-color;
+    border-radius: $border-radius;
+    padding: 10px;
+}
+
+.survey-header {
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+
+.survey-controls {
+    text-align: right;
+    padding: 10px 0 0 0;
+}

@@ -5,7 +5,7 @@
 html, body {
     font-family: 'Raleway', sans-serif;
     color: $primary-font-color;
-    background: $primary-bg-color;
+    background: $light-bg-color;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -60,5 +60,28 @@ p, li {
 }
 
 .btn-generic {
-    background: $tertiary-bg-color;
+    background: $dark-bg-color;
+}
+
+input[type=radio]:focus, input[type=radio]:active:focus, .btn:focus, .btn:active:focus, textarea:focus, textarea:active:focus {
+    outline: 0;
+}
+
+textarea {
+    background: $dark-bg-color;
+    color: $primary-font-color;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 10pt;
+}
+
+input[type=radio] ~ label, input[type=checkbox] ~ label {
+    font-weight: normal;
+}
+
+input[type=radio]:checked ~ label, input[type=checkbox]:checked ~ label {
+    color: $secondary-font-color;
 }
