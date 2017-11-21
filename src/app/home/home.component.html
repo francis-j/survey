@@ -1,4 +1,8 @@
 <div class="home">
-    <h5>Survey List</h5>
+    <h4>Survey List</h4>
     <p>Try a survey below!</p>
+    <h4 *ngIf="surveys == null">Grabbing list of surveys now...</h4>
+    <div class="list-group">
+        <button class="list-group-item" *ngFor="let survey of surveys" (click)="goSurvey(survey.id)">{{survey.title}}</button>
+    </div>
 </div>

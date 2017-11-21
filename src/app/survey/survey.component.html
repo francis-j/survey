@@ -1,0 +1,9 @@
+<div class="survey">
+    <h3>{{survey.title}}</h3>
+    <h5>{{survey.description}}</h5>
+    <p *ngIf="pageCount == 0">There are no pages in this survey.</p>
+    <button class="btn btn-generic" *ngIf="pageCount > 0 && currentPage == null" (click)="start()">Start Survey</button>
+    <page *ngIf="currentPage != null" [page]="currentPage"></page>
+    <button class="btn btn-generic" *ngIf="pageCount > 0 && currentPage != null" (click)="back()">Back</button>
+    <button class="btn btn-generic" *ngIf="pageCount > 0 && currentPage != null" (click)="next()">Next</button>
+</div>

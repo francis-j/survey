@@ -6,19 +6,26 @@ import { AppRouter } from './app.router';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { AppService } from './app.service';
+import { HttpModule } from '@angular/http';
+import { SurveyComponent } from './survey/survey.component';
+import { PageComponent } from './survey/page/page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    SurveyComponent,
+    PageComponent
   ],
   imports: [
     BrowserModule,
-    AppRouter
+    AppRouter,
+    HttpModule
   ],
-  providers: [],
+  providers: [AppService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
